@@ -1,0 +1,16 @@
+# See https://github.com/github/linguist
+# Text file normalization
+# Language detection rules
+*.woff2 binary
+*.gif binary
+
+*.bat text eol=crlf
+
+*.yaml linguist-detectable=false
+*.ico binary
+*.html linguist-vendored
+public/index.html linguist-vendored
+
+*.ts linguist-detectable
+
+node_modules/* linguist-vendored
